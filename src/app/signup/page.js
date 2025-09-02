@@ -31,7 +31,7 @@ export default function Signup() {
         role: "talent", // default role
       });
       
-      router.push('/'); // Redirect to homepage after signup
+      router.push('/profile'); // Redirect to homepage after signup
     } catch (error) {
       setError(error.message);
     }
